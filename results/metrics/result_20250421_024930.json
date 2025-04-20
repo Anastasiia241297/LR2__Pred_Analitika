@@ -1,0 +1,51 @@
+{
+    "features": [
+        "drive.current_mean_15_len_10_shift",
+        "drive.current_mean_45_len_10_shift",
+        "drive.current_min_45_len_5_shift",
+        "drive.current_max_90_len_5_shift",
+        "raw_mix.consumption_mean_15_len_10_shift",
+        "raw_mix.consumption_min_45_len_5_shift",
+        "raw_mix.consumption_mean_300_len_30_shift",
+        "raw_mix.moisture_avg_mean_60_len_15_shift",
+        "temp.out_mean_25_len_5_shift",
+        "temp.inlet_mean_25_len_5_shift",
+        "temp.out_min_25_len_5_shift",
+        "temp.inlet_max_30_len_5_shift",
+        "target_lag1",
+        "target_lag2",
+        "rolling_range_24h",
+        "was_high",
+        "was_low",
+        "raw_mix.consumption_mean_15_len_10_shift_rolling_std_5",
+        "raw_mix.consumption_mean_15_len_10_shift_rolling_mean_3",
+        "temp.out_mean_25_len_5_shift_rolling_std_5",
+        "temp.out_mean_25_len_5_shift_rolling_mean_3",
+        "consumption_temp_ratio"
+    ],
+    "metrics": {
+        "mae": 0.9139128756488154,
+        "mae_extreme": 0.8672246798786688,
+        "mae_baseline": 1.271153846153846,
+        "mae_baseline_shift": 1.7495145631067963,
+        "same_direction_ratio": 0.6796116504854369,
+        "mse": 1.1977351793795847,
+        "cv_scores": [
+            0.9314219866078521,
+            0.7897322420218202,
+            0.8615854746557872,
+            0.7779345138904633,
+            0.8320430246342893
+        ],
+        "mean_cv_mae": 0.8385434483620424,
+        "mae_linear_regression": 0.9220526971760373
+    },
+    "best_split_method": "RandomSplit",
+    "timestamp": "20250421_024930",
+    "plots": {
+        "split_methods_comparison": "C:\\Users\\hhh\\pythonProject12\\results\\plots\\split_methods_comparison.png",
+        "predictions_plot": "C:\\Users\\hhh\\pythonProject12\\results\\plots\\predictions_plot.png",
+        "feature_importance": "C:\\Users\\hhh\\pythonProject12\\results\\plots\\feature_importance.png",
+        "linear_regression_feature_importance": "C:\\Users\\hhh\\pythonProject12\\results\\plots\\linear_regression_feature_importance.png"
+    }
+}
